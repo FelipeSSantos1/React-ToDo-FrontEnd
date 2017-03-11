@@ -1,14 +1,14 @@
 {
-  "name": "frontend",
+  "name": "FrontEnd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tasks Sistem",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "webpack --progress -p"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [React ToDo],
+  "author": "Felipe S. Santos",
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.15.3",
