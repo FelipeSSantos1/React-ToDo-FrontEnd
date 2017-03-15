@@ -4,7 +4,8 @@ import axios from 'axios'
  * [backend URL]
  * @type {String}
  */
-const URL = 'http://localhost:3003/api/todos'
+//const URL = 'http://localhost:3003/api/todos'
+const URL = 'https://pg-app-zgvh30jlhxbw5qbbkvwxs7894wfyuw.scalabl.cloud/api/todos'
 /**
  * [Change input value]
  * @param  {[type]} event [description]

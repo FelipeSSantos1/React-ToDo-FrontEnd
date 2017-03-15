@@ -20,7 +20,7 @@ class taskForm extends Component {
   }
 
   keyHandler(e){
-    const {add, search, clear, description, changeDescription} = this.props;
+    const {add, search, clear, description} = this.props;
     if (e.key === 'Enter') {
         e.shiftKey ? search() : add(description);
     } else if (e.keyCode == 27 || e.keyCode == 8 || e.keyCode == 46) {
